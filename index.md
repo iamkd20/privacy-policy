@@ -86,4 +86,5 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 ## 10. Contact Us
 If you have any questions or suggestions about our Privacy Policy, please contact us at:
-**iamkarmas@gmail.com**
+**iamkarmas20@gmail.com**
+**iamkd20@gmail.com**
