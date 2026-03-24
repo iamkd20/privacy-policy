@@ -1,43 +1,89 @@
 # Privacy Policy for Naam Jap Counter
 
-**Effective Date:** March 23, 2026
+**Effective Date:** March 24, 2026
 
-## 1. Introduction
-Welcome to **Naam Jap Counter**. We are committed to protecting your privacy and ensuring you have a secure and peaceful experience while using our application. This Privacy Policy explains our practices regarding the data and information managed when you use the Naam Jap Counter app (the "App").
+Naam Jap Counter ("the App") is committed to protecting your privacy. This Privacy Policy explains how the App handles your data and is designed to comply with Google Play's User Data and Health Content and Services policies.
+
+---
+
+## 1. Important Medical Disclaimer
+**Naam Jap Counter is NOT a medical device.**
+- The App is designed for spiritual practice and meditative chanting (Naam Jap) and is intended for general wellness purposes only.
+- The App does not diagnose, treat, cure, or prevent any medical or mental health condition.
+- **Consult a Doctor:** Always seek the advice of a physician or other qualified healthcare professional with any questions regarding a medical condition. Never disregard professional medical advice because of information recorded in this App.
+
+---
 
 ## 2. Information Collection and Use
-We believe in complete data privacy, especially for a tool designed for spiritual practice. **Naam Jap Counter does not collect, store, transmit, or share any personal information.** 
-You are not required to create an account, provide an email address, or share any personally identifiable data to use any features of the App.
 
-## 3. Local Data Storage
-All data generated within the App—including but not limited to your chanting counts, session history, daily goals, and personalized settings—is stored **locally on your device**.
-- We do not host any external servers or databases to store your data.
-- We have absolutely no access to the data saved on your device.
-- You are in full control. Uninstalling the App or clearing the App's data from your device's system settings will permanently delete all saved application information.
+### Health and Meditative Data
+To provide its core features (tracking your spiritual progress), the App accesses and collects the following data:
+- **Chanting Counts:** The number of japs/chants performed.
+- **Session History:** Timestamps and duration of meditative sessions.
+- **Progress Tracking:** Daily goals and historical achievements.
 
-## 4. Analytics and Tracking
-We do not use any analytics, embedded advertisements, or third-party tracking services. Your usage behavior, app interactions, and chanting habits remain entirely private. Your practice is yours alone, and it is never monitored or monetized.
+This data is categorized as **Health Data** (specifically Spiritual/Mental Well-being data) under Google Play policies.
 
-## 5. Third-Party Services
-The App is built using open-source web and mobile frameworks (React, Vite, Tailwind CSS, Capacitor) and operates entirely on-device. The App does not integrate with any third-party data-harvesting SDKs or services. We do not share your information with any third parties because we do not collect it in the first place.
+### Personal Information & Email Collection
+The App does **not** collect or transmit any personally identifiable information (PII) like your name, phone number, or precise location by default. No account creation is required.
 
-## 6. Device Permissions
-To provide its core features and ensure a seamless experience, the App requests certain device permissions. We strictly use these permissions for local, on-device operations only:
-- **Notifications & Alarms (`POST_NOTIFICATIONS`, `SCHEDULE_EXACT_ALARM`, `USE_EXACT_ALARM`):** Used exclusively to schedule and deliver your daily practice reminders at precise and requested times. No notification data is sent to external servers.
-- **Haptic Feedback (`VIBRATE`):** Used to provide physical feedback when incrementing your chanting counters.
-- **Background & Lifecycle Operations (`FOREGROUND_SERVICE`, `WAKE_LOCK`, `RECEIVE_BOOT_COMPLETED`):** Required to ensure scheduled reminders survive device reboots, to prevent the screen from falling asleep during active practice, and to maintain reliable session tracking when the app is minimized.
-- **Storage Access (`READ_EXTERNAL_STORAGE`, `WRITE_EXTERNAL_STORAGE`):** Used strictly to save, read, and export your personal chanting summaries (such as sharing your stats) directly on your device.
-- **Network Access (`INTERNET`):** Required inherently by the app's framework (Capacitor/WebView) to render the local web application UI. **No user data is ever transmitted over the internet.**
+**Feedback & Queries:** If you choose to provide feedback via our integrated **Google Form** or contact us directly via email, we will collect your **email address** and the content of your message. This information is used solely to respond to your query or improve the App's features.
 
-## 7. Data Security
-Because all data remains locally on your device, the security of your chanting history and settings relies on the security of your device itself. We recommend keeping your device protected with a PIN, password, or biometric lock to ensure your personal information remains secure.
+---
+
+## 3. Data Storage and Handling (Local Only)
+
+**Strictly Local Storage:** All health-related data (counts, sessions) is **stored exclusively on your device** using your browser's local storage and the device's filesystem.
+- We do **not** host external servers or databases.
+- We have **no access** to your practice data.
+- **Data Deletion:** You have full control. Uninstalling the App or clearing its storage in device settings will permanently delete all records.
+
+---
+
+## 4. Purpose of Data Access
+The App accesses this data solely to:
+- Provide a real-time counter for your spiritual practice.
+- Maintain a history of your sessions for personal progress tracking.
+- Allow you to set and monitor spiritual/meditative goals.
+
+---
+
+## 5. Data Sharing and Third-Party Services
+- **No Data Sharing:** We do not share your health or meditative data with any third parties.
+- **No Analytics:** We do not use third-party analytics SDKs (like Firebase or Google Analytics).
+- **No Ads:** The App is ad-free and contains no advertising trackers.
+
+---
+
+## 6. Device Permissions and Their Use
+To provide its functionality, the App requests the following permissions. We use these **only** for the purposes stated below:
+
+| Permission | Purpose | Data Collection? |
+| :--- | :--- | :--- |
+| **Notifications & Alarms** | To send practice reminders and goal alerts. | No |
+| **Vibration** | To provide haptic feedback during chanting. | No |
+| **Storage / Filesystem** | To allow you to **Export** and **Import** your practice backups. | **User-managed local files only.** |
+| **Wake Lock / Screen On** | To allow the counter to work on the lock screen. | No |
+| **Internet** | For user-initiated actions only: opening feedback forms or sharing app links. | **NONE** in background. |
+| **Foreground Service** | To keep the counter active during meditative sessions. | No |
+
+---
+
+## 7. Data Retention and Deletion
+- **Retention:** We retain your meditative data only for as long as the App is installed on your device.
+- **Deletion:** You can delete all your data at any time by:
+    1. Using the "Clear Data" option in your device's App Settings.
+    2. Uninstalling the App. 
+    Since no data is stored on our servers, once deleted from your device, it is permanently removed.
+
+---
 
 ## 8. Children's Privacy
-Our App is safe and suitable for all ages. Because we do not collect personal data from anyone, we inherently comply with children's privacy regulations (such as COPPA). We do not knowingly or unknowingly collect recognizable personal information from anyone, including children under 13.
+The App does not collect personal information from children and is safe for use by all ages.
 
-## 9. Changes to This Privacy Policy
-We may update our Privacy Policy from time to time to reflect changes in our App or legal requirements. Since we do not collect your contact information to notify you directly, any updates will be reflected by modifying the "Effective Date" at the top of this document and within the App's repository or store listing.
+## 9. Changes to This Policy
+We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page (or the live URL provided in the Play Store).
 
 ## 10. Contact Us
-If you have any questions, concerns, or suggestions regarding this Privacy Policy or how your data is handled, please contact us at:  
-**iamkarmas20@gmail.com**
+If you have any questions or suggestions about our Privacy Policy, please contact us at:
+**iamkarmas@gmail.com**
