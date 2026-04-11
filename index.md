@@ -1,90 +1,81 @@
 # Privacy Policy for Naam Jap Counter
+**Effective Date:** April 11, 2026
 
-**Effective Date:** March 24, 2026
-
-Naam Jap Counter ("the App") is committed to protecting your privacy. This Privacy Policy explains how the App handles your data and is designed to comply with Google Play's User Data and Health Content and Services policies.
+Naam Jap Counter ("the App") is committed to protecting your privacy. This Privacy Policy explains how the App handles your data and is designed to comply with global privacy standards, including Google Play's User Data and Health Content policies.
 
 ---
 
 ## 1. Important Medical Disclaimer
 **Naam Jap Counter is NOT a medical device.**
 - The App is designed for spiritual practice and meditative chanting (Naam Jap) and is intended for general wellness purposes only.
-- The App does not diagnose, treat, cure, or prevent any medical or mental health condition.
-- **Consult a Doctor:** Always seek the advice of a physician or other qualified healthcare professional with any questions regarding a medical condition. Never disregard professional medical advice because of information recorded in this App.
+- Always seek the advice of a physician or other qualified healthcare professional with any questions regarding a medical condition.
 
 ---
 
-## 2. Information Collection and Use
+## 2. Information Collection and Handling
 
 ### Health and Meditative Data
-To provide its core features (tracking your spiritual progress), the App accesses and collects the following data:
+To track your spiritual progress, the App handles the following data:
 - **Chanting Counts:** The number of japs/chants performed.
 - **Session History:** Timestamps and duration of meditative sessions.
 - **Progress Tracking:** Daily goals and historical achievements.
 
-This data is categorized as **Health Data** (specifically Spiritual/Mental Well-being data) under Google Play policies.
+### Personal Information
+The App does **not** collect personally identifiable information (PII) like your name, phone number, or precise location by default. No account creation is required.
 
-### Personal Information & Email Collection
-The App does **not** collect or transmit any personally identifiable information (PII) like your name, phone number, or precise location by default. No account creation is required.
-
-**Feedback & Queries:** If you choose to provide feedback via our integrated **Google Form** or contact us directly via email, we will collect your **email address** and the content of your message. This information is used solely to respond to your query or improve the App's features.
-
----
-
-## 3. Data Storage and Handling (Local Only)
-
-**Strictly Local Storage:** All health-related data (counts, sessions) is **stored exclusively on your device** using your browser's local storage and the device's filesystem.
-- We do **not** host external servers or databases.
-- We have **no access** to your practice data.
-- **Data Deletion:** You have full control. Uninstalling the App or clearing its storage in device settings will permanently delete all records.
+### Optional Cloud Sync (Beta)
+If you explicitly choose to use the **Cloud Sync** feature to sync data between devices:
+- Your Jap history and settings are transmitted to a secure, temporary server.
+- This data is used solely to facilitate the sync and merge process between your devices using your private "Pairing Code."
+- We do not use this data for profiling, advertising, or sharing with third parties.
 
 ---
 
-## 4. Purpose of Data Access
-The App accesses this data solely to:
-- Provide a real-time counter for your spiritual practice.
-- Maintain a history of your sessions for personal progress tracking.
-- Allow you to set and monitor spiritual/meditative goals.
+## 3. Storage and Data Sovereignty
+- **Local-First Storage:** By default, all practice data is stored **only on your device**.
+- **Data Deletion:** You have full control. You can delete all data from the app settings, by clearing the app cache, or by uninstalling the App. 
+- **Backups:** When you use "Export," the app creates a file on your device. You choose where to save it (e.g., Google Drive, local folder). We have no access to these files.
 
 ---
 
-## 5. Data Sharing and Third-Party Services
-- **No Data Sharing:** We do not share your health or meditative data with any third parties.
-- **No Analytics:** We do not use third-party analytics SDKs (like Firebase or Google Analytics).
-- **No Ads:** The App is ad-free and contains no advertising trackers.
-
----
-
-## 6. Device Permissions and Their Use
-To provide its functionality, the App requests the following permissions. We use these **only** for the purposes stated below:
+## 4. Device Permissions and Their Use
+To provide a premium experience, the App requests specific permissions. These are used **only** for the purposes stated below and may vary by Android version and region:
 
 | Permission | Purpose | Data Collection? |
 | :--- | :--- | :--- |
-| **Notifications & Alarms** | To send practice reminders and goal alerts. | No |
+| **Notifications** | To send practice reminders. (Requested on Android 13+) | No |
+| **Exact Alarms** | To ensure reminders fire precisely at the set time. | No |
+| **Battery Optimization** | To prevent the system from stopping background music or reminders to "save power." | No |
+| **Foreground Service** | To keep background music and counters active during meditation. | No |
+| **Media Playback Service** | For persistent audio controls on the lock screen (Android 14+). | No |
+| **Storage / Media** | To allow you to **Upload** custom MP3s and **Export/Import** backups. | **User-managed files only.** |
 | **Vibration** | To provide haptic feedback during chanting. | No |
-| **Storage / Filesystem** | To allow you to **Export** and **Import** your practice backups. | **User-managed local files only.** |
-| **Wake Lock / Screen On** | To allow the counter to work on the lock screen. | No |
-| **Internet** | For user-initiated actions only: opening feedback forms or sharing app links. | **NONE** in background. |
-| **Foreground Service** | To keep the counter active during meditative sessions. | No |
+| **Internet** | For Cloud Sync (if enabled), feedback forms, and app updates. | **User-initiated only.** |
 
 ---
 
-## 7. Data Retention and Deletion
-- **Retention:** We retain your meditative data only for as long as the App is installed on your device.
-- **Deletion:** You can delete all your data at any time by:
-    1. Using the "Clear Data" option in your device's App Settings.
-    2. Uninstalling the App. 
-    Since no data is stored on our servers, once deleted from your device, it is permanently removed.
+## 5. Third-Party Services
+- **No Analytics:** We do not use third-party analytics SDKs.
+- **No Ads:** The App is completely ad-free.
+- **Google Forms:** If you submit feedback, we collect your email and message purely to respond to your query.
 
 ---
 
-## 8. Children's Privacy
+## 6. Retention and Deletion
+- **Retention:** We retain data only for as long as the App is installed or as long as needed for Cloud Sync functionality.
+- **Deletion:** Once you delete your data from the device and clear the Pairing Code, no records remain on any system.
+
+---
+
+## 7. Children's Privacy
 The App does not collect personal information from children and is safe for use by all ages.
 
-## 9. Changes to This Policy
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page (or the live URL provided in the Play Store).
+---
 
-## 10. Contact Us
-If you have any questions or suggestions about our Privacy Policy, please contact us at:
-**iamkarmas20@gmail.com**
-**iamkd20@gmail.com**
+## 8. Changes to This Policy
+We may update this Privacy Policy to reflect new features or regulatory changes. We will notify you of significant updates within the App.
+
+---
+
+## 9. Contact Us
+If you have any questions or suggestions about our Privacy Policy, please contact us at: iamkarmas20@gmail.com iamkd20@gmail.com
