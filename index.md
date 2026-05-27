@@ -48,6 +48,8 @@ To provide a premium experience, the App requests specific permissions. These ar
 | **Battery Optimization** | To prevent the system from stopping background music or reminders to "save power." | No |
 | **Foreground Service** | To keep background music and counters active during meditation. | No |
 | **Media Playback Service** | For persistent audio controls on the lock screen (Android 14+). | No |
+| **Wake Lock** | To keep the screen awake and prevent the device from sleeping during chanting sessions. | No |
+| **Show on Lock Screen** | To allow the active counter (Zen Mode) to be displayed directly over the lock screen. | No |
 | **Storage / Media** | To allow you to **Upload** custom MP3s and **Export/Import** backups. | **User-managed files only.** |
 | **Vibration** | To provide haptic feedback during chanting. | No |
 | **Internet** | For Cloud Sync (if enabled), feedback forms, and app updates. | **User-initiated only.** |
