@@ -20,8 +20,16 @@ To track your spiritual progress, the App handles the following data:
 - **Session History:** Timestamps and duration of meditative sessions.
 - **Progress Tracking:** Daily goals and historical achievements.
 
+### Privacy Mode
+The App includes a "Privacy Mode" feature designed to visually mask your chanting counts and sensitive data on your screen. This protects your privacy from onlookers while you practice in public spaces. Privacy Mode only affects the visual display on your device and does not change how your data is stored or processed.
+
 ### Personal Information
-The App does **not** collect personally identifiable information (PII) like your name, phone number, or precise location by default. No account creation is required.
+If you choose to create an account, the App collects the following personally identifiable information (PII):
+- **Full Name:** To personalize your experience.
+- **Email Address:** Used as your login identifier and for account recovery.
+- **Password:** Securely encrypted and stored for authentication.
+
+If you use the App without creating an account, we do not collect this information.
 
 ### Optional Cloud Sync (Beta)
 If you explicitly choose to use the **Cloud Sync** feature to sync data between devices:
@@ -33,7 +41,7 @@ If you explicitly choose to use the **Cloud Sync** feature to sync data between 
 
 ## 3. Storage and Data Sovereignty
 - **Local-First Storage:** By default, all practice data is stored **only on your device**.
-- **Data Deletion:** You have full control. You can delete all data from the app settings, by clearing the app cache, or by uninstalling the App. 
+- **Data Deletion:** You have full control. You can delete local data by clearing the app cache or uninstalling the App. If you have registered an account, you can permanently delete your account and all associated personal data directly from the App settings. You may also request account deletion by contacting us via email.
 - **Backups:** When you use "Export," the app creates a file on your device. You choose where to save it (e.g., Google Drive, local folder). We have no access to these files.
 
 ---
@@ -64,8 +72,8 @@ To provide a premium experience, the App requests specific permissions. These ar
 ---
 
 ## 6. Retention and Deletion
-- **Retention:** We retain data only for as long as the App is installed or as long as needed for Cloud Sync functionality.
-- **Deletion:** Once you delete your data from the device and clear the Pairing Code, no records remain on any system.
+- **Retention:** We retain data only for as long as you maintain an active account or as long as needed for Cloud Sync functionality.
+- **Deletion:** You can delete your account and all associated personal info from the App settings. Once you delete your account or local data, records are permanently removed from our systems.
 
 ---
 
