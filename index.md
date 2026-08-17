@@ -1,5 +1,5 @@
 # Privacy Policy for Naam Jap Counter
-**Effective Date:** April 11, 2026
+**Effective Date:** August 18, 2026
 
 Naam Jap Counter ("the App") is committed to protecting your privacy. This Privacy Policy explains how the App handles your data and is designed to comply with global privacy standards, including Google Play's User Data and Health Content policies.
 
@@ -64,9 +64,10 @@ To provide a premium experience, the App requests specific permissions. These ar
 
 ---
 
-## 5. Third-Party Services
-- **No Analytics:** We do not use third-party analytics SDKs.
-- **No Ads:** The App is completely ad-free.
+## 5. Third-Party Services and Advertising
+- **Google AdMob:** The App uses Google AdMob to display advertisements. AdMob may collect and use your device's Advertising ID (`com.google.android.gms.permission.AD_ID`) and other usage data to provide and improve ad services.
+- **Leaderboards & Groups (Sangha):** If you participate in Leaderboards or Groups, your chosen display name and chanting statistics may be visible to other users.
+- **No Third-Party Analytics:** We do not use third-party analytics SDKs beyond what is required for cloud sync and crash reporting.
 - **Google Forms:** If you submit feedback, we collect your email and message purely to respond to your query.
 
 ---
