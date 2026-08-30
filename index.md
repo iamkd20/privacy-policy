@@ -1,5 +1,5 @@
 # Privacy Policy for Naam Jap Counter
-**Effective Date:** August 18, 2026
+**Effective Date:** August 30, 2026
 
 Naam Jap Counter ("the App") is committed to protecting your privacy. This Privacy Policy explains how the App handles your data and is designed to comply with global privacy standards, including Google Play's User Data and Health Content policies.
 
@@ -51,42 +51,52 @@ To provide a premium experience, the App requests specific permissions. These ar
 
 | Permission | Purpose | Data Collection? |
 | :--- | :--- | :--- |
-| **Notifications** | To send practice reminders. (Requested on Android 13+) | No |
-| **Exact Alarms** | To ensure reminders fire precisely at the set time. | No |
-| **Battery Optimization** | To prevent the system from stopping background music or reminders to "save power." | No |
-| **Foreground Service** | To keep background music and counters active during meditation. | No |
-| **Media Playback Service** | For persistent audio controls on the lock screen (Android 14+). | No |
-| **Wake Lock** | To keep the screen awake and prevent the device from sleeping during chanting sessions. | No |
+| **Notifications** | To send practice reminders and display the Auto Counter lock screen control card. (Requested on Android 13+) | No |
+| **Display Over Other Apps** | To display the compact Floating Counter Bubble while multitasking or using other apps (`SYSTEM_ALERT_WINDOW`). | No |
+| **Exact Alarms** | To ensure spiritual practice reminders fire precisely at the set time (`SCHEDULE_EXACT_ALARM`). | No |
+| **Run at Startup / Boot** | To reschedule daily reminder alarms and restore home screen widgets after your device reboots (`RECEIVE_BOOT_COMPLETED`). | No |
+| **Battery Optimization** | To prevent the system from stopping background chants or reminders to "save power" (`REQUEST_IGNORE_BATTERY_OPTIMIZATIONS`). | No |
+| **Foreground Service** | To keep background audio, auto counter, and floating counter active during meditation (`FOREGROUND_SERVICE`, `FOREGROUND_SERVICE_SPECIAL_USE`). | No |
+| **Media Playback Service** | For persistent audio and auto-counter controls on the lock screen (Android 14+). | No |
+| **Wake Lock** | To keep the screen awake and prevent the device from sleeping during chanting sessions (`WAKE_LOCK`). | No |
 | **Show on Lock Screen** | To allow the active counter (Zen Mode) to be displayed directly over the lock screen. | No |
-| **Storage / Media** | To allow you to **Upload** custom MP3s and **Export/Import** backups. | **User-managed files only.** |
-| **Vibration** | To provide haptic feedback during chanting. | No |
-| **Internet** | For Cloud Sync (if enabled), feedback forms, and app updates. | **User-initiated only.** |
+| **Storage / Media** | To allow you to **Upload** custom MP3s and **Export/Import** backups (`READ_EXTERNAL_STORAGE` / `WRITE_EXTERNAL_STORAGE`). | **User-managed files only.** |
+| **Vibration** | To provide haptic feedback during chanting (`VIBRATE`). | No |
+| **Advertising ID** | Used strictly by Google AdMob to deliver relevant non-personalized / personalized rewarded and banner ads (`AD_ID`). | Managed by Google AdMob |
+| **Internet** | For Cloud Sync (if enabled), feedback forms, rewarded ads, and app updates (`INTERNET`). | **User-initiated only.** |
 
 ---
 
-## 5. Third-Party Services and Advertising
-- **Google AdMob:** The App uses Google AdMob to display advertisements. AdMob may collect and use your device's Advertising ID (`com.google.android.gms.permission.AD_ID`) and other usage data to provide and improve ad services.
+## 5. App Widgets and Home Screen Integration
+- **Naam Jap Mini (1x1 Quick Tap) & Stats Widgets (4x2 Progress/Trends):**
+  - All widget counts, daily target progress, and streak statistics are calculated and stored locally on your device.
+  - Widget interactions (tapping the widget to increment count) operate entirely offline without transmitting personal data.
+
+---
+
+## 6. Third-Party Services and Advertising
+- **Google AdMob:** The App uses Google AdMob to display banner and rewarded video advertisements. AdMob may collect and use your device's Advertising ID (`com.google.android.gms.permission.AD_ID`) and diagnostic usage data in accordance with [Google's Privacy Policy](https://policies.google.com/privacy).
 - **Leaderboards & Groups (Sangha):** If you participate in Leaderboards or Groups, your chosen display name and chanting statistics may be visible to other users.
 - **No Third-Party Analytics:** We do not use third-party analytics SDKs beyond what is required for cloud sync and crash reporting.
-- **Google Forms:** If you submit feedback, we collect your email and message purely to respond to your query.
+- **Google Forms:** If you submit feedback or suggest a new Naam/Mantra, we collect your submitted suggestions and optional email purely to respond or add requested chants.
 
 ---
 
-## 6. Retention and Deletion
+## 7. Retention and Deletion
 - **Retention:** We retain data only for as long as you maintain an active account or as long as needed for Cloud Sync functionality.
 - **Deletion:** You can delete your account and all associated personal info from the App settings. Once you delete your account or local data, records are permanently removed from our systems.
 
 ---
 
-## 7. Children's Privacy
+## 8. Children's Privacy
 The App does not collect personal information from children and is safe for use by all ages.
 
 ---
 
-## 8. Changes to This Policy
+## 9. Changes to This Policy
 We may update this Privacy Policy to reflect new features or regulatory changes. We will notify you of significant updates within the App.
 
 ---
 
-## 9. Contact Us
-If you have any questions or suggestions about our Privacy Policy, please contact us at: iamkarmas20@gmail.com iamkd20@gmail.com
+## 10. Contact Us
+If you have any questions or suggestions about our Privacy Policy, please contact us at: iamkarmas20@gmail.com / iamkd20@gmail.com
